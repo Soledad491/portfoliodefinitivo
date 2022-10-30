@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="container">
+        <div class="logoAP">
+            <img src="../../../assets/logossap/banner-ok-argentina-programa.jpg" id="logoAP" sizes="" srcset="">
+        </div>
+        <div class="redes">
+            <a href=""><img src="../../../assets/logossap/facebook.png" id="facebook"></a>
+            <a href=""><img src="../../../assets/logossap/github.png" id="github"></a>
+            <a href=""><img src="../../../assets/logossap/instagram.png" id="instagram"></a>
+            <a href=""><img src="../../../assets/logossap/linkedin.png" id="linkedin"></a>
+            <a href=""><img src="../../../assets/logossap/twitter.png" id="twitter"></a>
+            <button type="button" class="btn btn-danger" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+            <button type="button" class="btn btn-danger" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+        </div>
+    </div>
+</div>
+

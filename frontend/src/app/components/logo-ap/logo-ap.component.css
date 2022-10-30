@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    margin-right: 1em;
+}
+#logoAP{
+    width: 270px;
+}
+img{
+    width: 50px;
+}
